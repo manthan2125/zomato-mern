@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
 
-
-const userSchema =  new mongoose.Schema({
-    fullName: {
+const foodPartnerSchema = new mongoose.Schema({
+    name: {
         type: String,
         required: true
     },
@@ -13,11 +12,10 @@ const userSchema =  new mongoose.Schema({
     },
     password: {
         type: String,
+        required: true,
     },
+})
 
-}, { timestamps: true });
+const foodPartnerModel = mongoose.model("foodpartner", foodPartnerSchema);
 
-
-const userModel = mongoose.model("user", userSchema);
-
-module.exports = userModel;
+module.exports = foodPartnerModel;
