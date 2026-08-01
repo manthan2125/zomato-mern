@@ -16,12 +16,11 @@ const UserLogin = () => {
     const response = await axios.post("http://localhost:3000/api/auth/user/login", {
       email,
       password
-    }, { withCredentials: true });
+    }, { withCredentials: true });   // token cookies browser mein tabhi save hogi jab aap axios ke saath withCredentials: true kroge
 
     console.log(response.data);
 
     navigate("/"); // Redirect to home after login
-
   };
 
   return (
