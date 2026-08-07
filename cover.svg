@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="628" viewBox="0 0 1200 628" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zomato style food reels app cover image">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff5e39" />
+      <stop offset="100%" stop-color="#f65a29" />
+    </linearGradient>
+    <linearGradient id="phone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8f3" />
+      <stop offset="100%" stop-color="#ffe7d8" />
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#ffe2d2" stop-opacity="0.95" />
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#ff6e3f" flood-opacity="0.24" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="628" fill="url(#bg)" />
+  <circle cx="240" cy="140" r="120" fill="#ff9b66" opacity="0.75" />
+  <circle cx="980" cy="110" r="80" fill="#ffcfb0" opacity="0.55" />
+  <circle cx="180" cy="520" r="90" fill="#ffc5a0" opacity="0.45" />
+
+  <g filter="url(#softShadow)">
+    <rect x="330" y="90" width="430" height="620" rx="48" ry="48" fill="#fff" stroke="#ffe3d2" stroke-width="10" />
+  </g>
+  <rect x="360" y="130" width="370" height="530" rx="32" ry="32" fill="url(#screen)" />
+  <rect x="500" y="110" width="140" height="10" rx="5" ry="5" fill="#f9b099" />
+  <circle cx="450" cy="115" r="8" fill="#ff7a42" />
+  <circle cx="500" cy="115" r="8" fill="#ffab7c" />
+  <circle cx="550" cy="115" r="8" fill="#ffd7c0" />
+
+  <g opacity="0.95">
+    <rect x="388" y="170" width="324" height="108" rx="24" ry="24" fill="#fff" />
+    <rect x="404" y="192" width="120" height="76" rx="18" ry="18" fill="#fff0e9" />
+    <circle cx="450" cy="230" r="18" fill="#ff6f2d" />
+    <rect x="534" y="192" width="170" height="76" rx="18" ry="18" fill="#ffeddc" />
+    <rect x="548" y="208" width="110" height="16" rx="8" ry="8" fill="#ff8a4a" />
+    <rect x="548" y="236" width="70" height="12" rx="6" ry="6" fill="#ffb79a" />
+  </g>
+
+  <g>
+    <rect x="388" y="302" width="324" height="110" rx="24" ry="24" fill="#fff" />
+    <circle cx="436" cy="348" r="22" fill="#ff5d2b" />
+    <circle cx="486" cy="348" r="20" fill="#ff9f6a" />
+    <circle cx="536" cy="348" r="16" fill="#ffd2b7" />
+    <circle cx="586" cy="348" r="12" fill="#ffffff" opacity="0.9" />
+    <rect x="544" y="296" width="132" height="20" rx="10" ry="10" fill="#ffb69a" />
+    <rect x="544" y="330" width="110" height="12" rx="6" ry="6" fill="#ffc8b4" />
+    <rect x="544" y="354" width="78" height="10" rx="5" ry="5" fill="#ffe2d6" />
+  </g>
+
+  <g>
+    <rect x="388" y="444" width="324" height="116" rx="24" ry="24" fill="#fff" />
+    <circle cx="432" cy="510" r="20" fill="#ff5d2b" />
+    <rect x="474" y="478" width="128" height="64" rx="16" ry="16" fill="#ffced5" />
+    <rect x="506" y="492" width="76" height="16" rx="8" ry="8" fill="#ff8d63" />
+    <rect x="506" y="516" width="94" height="10" rx="5" ry="5" fill="#ffd7cb" />
+    <polygon points="626,494 650,510 626,526" fill="#ff5f33" />
+  </g>
+
+  <g>
+    <rect x="820" y="220" width="260" height="110" rx="40" ry="40" fill="#fff" opacity="0.95" />
+    <path d="M860 254 C880 220, 940 220, 960 254 L960 304 C940 338, 880 338, 860 304 Z" fill="#ff8d54" />
+    <circle cx="897" cy="272" r="14" fill="#fff" opacity="0.9" />
+    <path d="M892 282 L902 282 L897 292 Z" fill="#fff" />
+    <text x="830" y="360" font-family="Inter, Arial, sans-serif" font-size="24" fill="#e65b27">Food Reels</text>
+  </g>
+
+  <g>
+    <path d="M830 380 Q860 340 890 380 T950 380" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity="0.8" />
+    <circle cx="870" cy="396" r="14" fill="#fff" opacity="0.9" />
+    <circle cx="910" cy="396" r="14" fill="#fff" opacity="0.9" />
+  </g>
+
+  <text x="100" y="310" fill="#1a1a1a" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="800">Zomato Food Reels</text>
+  <text x="100" y="390" fill="#2b2b2b" font-family="Inter, Arial, sans-serif" font-size="28" letter-spacing="0.6">Full-stack MERN food-sharing experience with reels-style browsing</text>
+
+  <g fill="#ffffff" opacity="0.95">
+    <circle cx="1120" cy="520" r="48" fill="#ff7f3f" opacity="0.92" />
+    <path d="M1110 504 C1110 494, 1130 494, 1130 504 C1130 514, 1110 514, 1110 504 Z" fill="#fff" />
+    <path d="M1120 520 L1118 536 L1130 532 L1140 540 L1142 524 L1130 528 Z" fill="#fff" />
+  </g>
+</svg>
